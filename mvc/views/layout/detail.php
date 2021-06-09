@@ -155,11 +155,11 @@
                             <img data-imgbigurl="img/product/details/product-details-2.jpg"
                                 src="<?php echo URL_LAYOUT; ?>img/product/details/gucci.jpg" alt="">
                             <img data-imgbigurl="img/product/details/product-details-3.jpg"
-                                src="<?php echo URL_LAYOUT; ?>img/product/details/thumb-2.jpg" alt="">
+                                src="<?php echo URL_LAYOUT; ?>img/product/details/etudehouse.jpg" alt="">
                             <img data-imgbigurl="img/product/details/product-details-5.jpg"
-                                src="<?php echo URL_LAYOUT; ?>img/product/details/thumb-3.jpg" alt="">
+                                src="<?php echo URL_LAYOUT; ?>img/product/details/fox.jpg" alt="">
                             <img data-imgbigurl="img/product/details/product-details-4.jpg"
-                                src="<?php echo URL_LAYOUT; ?>img/product/details/thumb-4.jpg" alt="">
+                                src="<?php echo URL_LAYOUT; ?>img/product/details/km_holdlive.jpg" alt="">
                         </div>
                     </div>
                 </div>
