@@ -18,15 +18,7 @@
                             <a href="#"><i class="fa fa-linkedin"></i></a>
                             <a href="<?php echo URL.'login/logout' ?>" class="logout"><i class="fa fa-pinterest-p"></i></a>
                         </div>
-                        <div class="header__top__right__language">
-                            <img src="<?php echo URL_LAYOUT; ?>img/language.png" alt="">
-                            <div>Vietnam</div>
-                            <span class="arrow_carrot-down"></span>
-                            <ul>
-                                <li><a href="#">Vie</a></li>
-                                <li><a href="#">English</a></li>
-                            </ul>
-                        </div>
+                       
                         <div class="header__top__right__auth" id="login1">
                             <a href="<?php echo URL.'login' ?>" id="login2"><i class="fa fa-user"></i>
                            
@@ -56,7 +48,7 @@
                 <nav class="header__menu">
                     <ul>
                         <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./shop-grid.html">Shop</a></li>
+                        <li><a href="<?php echo URL.'shop-grid'?>">Shop</a></li>
                         <li><a href="#">Pages</a>
                             <ul class="header__menu__dropdown">
                                 <li><a href="./shop-details.html">Shop Details</a></li>
@@ -74,7 +66,7 @@
                 <div class="header__cart">
                     <ul>
                         <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                        <li><a href="<?php echo URL.'cart1/index' ?>"><i class="fa fa-shopping-bag"></i>
+                        <li><a href="<?php echo URL.'cart1/index' ?>"><i class="fa fa-shopping-bag"><span>1</span></i>
                             <span id="num_cart">
                                 <?php
                                 if(isset($_SESSION['cart'])){
